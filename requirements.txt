@@ -1,0 +1,8 @@
+pytest
+pylint
+awsebcli
+flask
+click
+appdirs
+itsdangerous
+packaging

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>{{ the_title }}</h1>
+
+<img alt="Machine Learning" src="{{ url_for('static', filename='images/deep_learning.png') }}">
+
+<ul>
+  <a href="{{ url_for('index') }}">Home page</a>
+  <hr>
+  <a href="{{ url_for('symbol') }}">Web Development projects</a>
+</ul>
+
+<p>My data science projects will be here</p>
+
+
+<li>Data Science Project 1</li>
+<li>Data Science Project 2</li>
+<li>Data Science Project 3</li>
+<li>Data Science Project 4</li>
+<li>Data Science Project 5</li>
+
+<p><a href="https://en.wikipedia.org/wiki/Data_science" target="_blank">Read more about Data Science</a></p>
+
+{% endblock %}

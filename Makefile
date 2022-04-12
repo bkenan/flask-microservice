@@ -6,7 +6,7 @@ test:
 	#python -m pytest -vv test_application.py
 
 lint:
-	pylint --disable=R,C application.py
+	pylint --disable=R,C app.py
 
 deploy:
 	echo "Deploying app"
